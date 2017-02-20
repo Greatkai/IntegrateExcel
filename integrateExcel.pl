@@ -1,15 +1,10 @@
 #!/usr/bin/env perl
 
 use File::Basename;
-use Data::Dumper;
 use Spreadsheet::XLSX;
 use Spreadsheet::ParseExcel;
-use Spreadsheet::ParseExcel::FmtUnicode;
 use Excel::Writer::XLSX;
-use MyExcelFormatter;
-use Text::Iconv;
 use Encode;
-use Unicode::Map;
 use utf8;
 
 $currentDir = dirname(__FILE__);
